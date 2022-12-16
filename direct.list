@@ -1,10 +1,10 @@
-RULE-SET,applications
-DOMAIN,clash.razord.top
-DOMAIN,yacd.haishan.me
-RULE-SET,private
-RULE-SET,icloud
-RULE-SET,apple
-RULE-SET,google
-RULE-SET,direct
-RULE-SET,lancidr
-RULE-SET,cncidr
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,google,DIRECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,private,DIRECT
