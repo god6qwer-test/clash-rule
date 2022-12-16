@@ -1,1 +1,1 @@
-RULE-SET,reject
+  - RULE-SET,reject,REJECT
